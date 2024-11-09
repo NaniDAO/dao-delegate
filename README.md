@@ -37,4 +37,4 @@ The function runs automatically and:
 - NANI AI API access
 
 ## License
-MIT
+GNU AGPL v3
