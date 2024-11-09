@@ -1,0 +1,19 @@
+{
+  "name": "dao-delegate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "functions-framework --target=vote"
+  },
+  "dependencies": {
+    "@google-cloud/functions-framework": "3.0.0",
+    "@nanidao/gcp-account": "0.0.2",
+    "eip-7582-utils": "0.2.0",
+    "pg": "8.5.1",
+    "viem": "2.21.35"
+  }
+}
